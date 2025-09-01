@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* || RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+/* || VARIABLES */
+
+:root {
+  --FF: "Outfit", sans-serif;
+  --FS: 15px;
+  --FW400: 400;
+  --FW700: 700;
+  --WHITE: white;
+  --SLATE300: hsl(212, 45%, 89%);
+  --SLATE500: hsl(216, 15%, 48%);
+  --SLATE900: hsl(218, 44%, 22%);
+}
+
+/* || GENERAL STYLES */
+
+
+/* || FULL PAGE */
+
+html {
+  font-family: var(--FF);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--SLATE300);
+}
+
+/* || CARD */
+
+.section {
+  background-color: white;
+  max-width: 320px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section--img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.text--h1 {
+  font-size: 1.25rem;
+  font-weight: var(--FW700);
+  margin: 1rem 0;
+  color: var(--SLATE900);
+}
+
+.text--p {
+  font-size: var(--FS);
+  font-weight: var(--FW400);
+  color: var(--SLATE500);
+  margin-bottom: 1.5rem;
+}
+
+/* || FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
