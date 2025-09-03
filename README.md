@@ -1,23 +1,22 @@
-# Frontend Mentor Challenge Solutions
+# 📱 QR Code Component — Frontend Mentor Challenge
 
-This repository contains my solutions to various Frontend Mentor challenges. Each project is built using HTML, CSS, and occasionally JavaScript to improve my frontend development skills.
+This is my solution to the [QR Code Component challenge](https://www.frontendmentor.io/solutions/qr-card-simple-solution-JG_o30KxYS) on Frontend Mentor. It's a simple yet elegant card layout featuring a QR code and descriptive text.
 
-## 📁 Projects
-Each folder includes:
-- Source code
-- Design screenshots
-- README with challenge details and my approach
+## 🚀 Live Site  
+Check out the hosted version here: [Live Preview](https://kakarot26.github.io/QR-Card-FM-Solution/)
 
-## 🚀 Live Previews
-Where available, links to live previews are included in each project folder.
+## 🛠️ Built With
+- HTML5
+- CSS3
+- Flexbox
 
-## 🎯 Goals
-- Practice responsive design
-- Improve semantic HTML and clean CSS
-- Learn modern frontend techniques
+## 📸 Screenshot
+![QR Code Component Screenshot](docs/screenshot.png) 
 
----
+## 🎯 What I Learned
+- How to center content using Flexbox
+- Applying consistent spacing and typography
+- Using semantic HTML for accessibility
 
 Feel free to explore and share feedback!
-## 🌐 Live Site
-Check out the hosted version here: [My First Solution](https://kakarot26.github.io/My-Frontend-Mentor-Solutions/)
+
