@@ -11,7 +11,7 @@ Check out the hosted version here: [Live Preview](https://kakarot26.github.io/QR
 - Flexbox
 
 ## 📸 Screenshot
-![QR Code Component Screenshot](docs/screenshot.png) 
+![QR Code Component Screenshot](docs/images/screenshot.png) 
 
 ## 🎯 What I Learned
 - How to center content using Flexbox
